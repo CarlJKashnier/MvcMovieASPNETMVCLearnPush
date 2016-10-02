@@ -24,6 +24,7 @@ namespace MvcMovie.Controllers
         public string Welcome2(string name, int numTimes = 1)
         {
             return HttpUtility.HtmlEncode("Hello" + name + ", Number of times: " + numTimes);
+            //Seeing if git catches this
         }
     }
 }
